@@ -6,13 +6,13 @@ function isArithmeticProgression(numbers) {
     
     let difference = numbers[1] - numbers[0]; 
     
-    for (let i = 2; i < numbers.length; i++) {
+    for (let i = 1; i < numbers.length; i++) {
         if (numbers[i] - numbers[i - 1] !== difference) {
             console.log(numbers, false);
             return false;
         }
     }
-    
+
     console.log(numbers, true);
     return true;
 }
