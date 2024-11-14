@@ -8,12 +8,12 @@ function isArithmeticProgression(numbers) {
     
     for (let i = 1; i < numbers.length; i++) {
         if (numbers[i] - numbers[i - 1] !== difference) {
-            console.log(numbers, false);
+            console.log(numbers);
             return false;
         }
     }
 
-    console.log(numbers, true);
+    console.log(numbers);
     return true;
 }
 
