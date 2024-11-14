@@ -24,31 +24,30 @@ console.log(arrSum([-2, -3, 4, -1, -2, 1, 5, -3]));
 // Output: [[4, -1, -2, 1, 5], 7]
 
 // Nama: Raihan Ramadhan
-
 // step 1
-// max = [-2], maxEnd = [-3]
+// max = array[0] (-2), maxEnd = array[1] (-3)
 // start = 0, end = 0, tempStart = 1
 
 // step 2
-// max = [4], maxEnd = [4]
+// max = array[2] (4), maxEnd = array[2] (4)
 // start = 2, end = 2, tempStart = 2
 
 // step 3
-// max = [4], maxEnd = [4, -1]
+// max = array[2] (4), maxEnd = 3
 // start = 2, end = 2, tempStart = 2
 
 // step 4
-// max = [4], maxEnd = [4, -1, -2]
+// max = array[2] (4), maxEnd = 1
 // start = 2, end = 2, tempStart = 2
 
 // step 5
-// max = [4], maxEnd = [4, -1, -2, 1]
+// max = array[2] (4), maxEnd = 2
 // start = 2, end = 2, tempStart = 2
 
 // step 6
-// max = [4, -1, -2, 1, 5], maxEnd = [4, -1, -2, 1, 5]
+// max = array[2] (7), maxEnd = array[6] (7)
 // start = 2, end = 6, tempStart = 2
 
 // step 7
-// max = [4, -1, -2, 1, 5], maxEnd = [4, -1, -2, 1, 5, -3]
+// max = array[2] (7), maxEnd = 4
 // start = 2, end = 6, tempStart = 2
